@@ -1,0 +1,9 @@
+.involved h1{
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}

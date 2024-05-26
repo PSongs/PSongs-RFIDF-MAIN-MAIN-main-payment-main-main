@@ -1,0 +1,777 @@
+/* home.css */
+
+.home {
+  padding-top: 100px;
+}
+
+.textIntro {
+  height: 100vh;
+  background-color: #e2e2d32c;
+}
+
+.neverNow {
+  height: 80vh;
+}
+
+.neverNow img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio (change as needed) */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove iframe border */
+}
+
+.ceezyLine h1 {
+  text-align: center;
+  font-size: 4vw;
+  color: #201e1e;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+.random-content {
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 60%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+
+.writeups
+{
+  background-color: white;
+   display: grid;
+   grid-template-rows: 1fr 1fr 3fr;
+   height: 100%;
+}
+
+
+.random-content > *:first-child  {
+  flex-grow: 4; /* First element takes more space */
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+ 
+  
+}
+/* Apply different flex-grow values to child elements */
+.random-content > *:first-child  img{
+  flex-grow: 4; /* First element takes more space */
+  width: 80%;
+
+  
+}
+
+
+.random-content > *:first-child  video{
+  flex-grow: 4; /* First element takes more space */
+   width: 70%;
+
+
+  
+}
+
+.writeups div
+{
+  box-shadow: 1px 1px black;
+  align-content: center;
+
+}
+
+
+.writeups .sectionsp
+{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.writeups .sectionsl 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center
+  ;
+}
+.writeups .sectionsl img
+{
+    width: 5vw;
+    height: 1vw;
+}
+
+.writeups .sectionsw
+{
+  overflow: auto;
+  padding: 10px;
+  align-items: end;
+  text-align: start;
+}
+
+.random-content > *:not(:first-child) {
+  flex-grow: 1; /* Other elements share remaining space equally */
+  width: 10vw
+}
+
+
+  
+.random-content > *:not(:first-child) p {
+    font-size: 10px;
+}
+
+
+.random {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  z-index: 1000000000000000; /* Ensure the modal is on top of other content */
+  display: flex;
+  grid-template-columns: 300fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+
+
+  
+}
+
+
+.ceezyLine h3 {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: #2B382D;
+}
+
+.donateBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  gap: 9vw;
+}
+
+.donateBtns button {
+  background-color: #2B382D;
+  height: 60px;
+  width: 250px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.donateBtns button:hover{
+  background-color: #718C75;
+}
+
+.donateBtns a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.LEARNBTN{  
+  width: 6rem;
+  height: 2rem;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: #2B382D;
+  border: none;
+  color: white;
+}
+
+.LEARNBTN:hover{
+  background-color: #718C75;
+}
+
+.pi {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-row: 1fr 5fr 1fr;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pi img {
+  width: 100%;
+  height: 100%;
+}
+
+.War4oh {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.War4oh .War4ohtxt1 {
+  color: orange;
+}
+
+.War4oh h1 {
+  align-items: center;
+  font-size: 3vw;
+}
+
+.War4oh h3 {
+  font-size: large;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ceezyLine {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 40px;
+}
+
+.swipers {
+  width: 90vw;
+}
+
+.actiondiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.actiondiv h2 {
+  font-size: 2vw;
+}
+
+.clickables video
+{
+  width: 100%;
+  height: 20vw;
+}
+
+.clickables
+{
+  height: 100px;
+}
+
+
+.aface
+{
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+  margin-top: 200px;
+  gap: 100px;
+  text-align: center;
+  padding: 100px;
+}
+
+.aface > :first-child img {
+    
+           border-radius: 100vw;
+
+}
+
+
+.aface > :not(:first-child) {
+    
+  
+  border-top: solid ;
+  border-bottom: solid ;
+  width: 30vw;
+  font-size: small;
+  text-align:left;
+
+}
+
+
+
+
+.briefing
+{
+  background-color: gainsboro ;
+  height: 150vh;
+  padding: 100px;
+  
+ 
+}
+
+.briefing h1
+{
+text-align: center;
+margin-bottom: 70px;
+}
+
+.briefing h2
+{ 
+text-align: left;
+margin-bottom: 30px;
+
+}
+
+.iframe
+{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.shop
+{
+  width: 100%;
+}
+
+
+.shop img 
+{
+  width: 100%;
+}
+
+
+@media (max-width: 1004px) {
+
+
+/* home.css */
+
+.home {
+padding-top: 150px;
+}
+
+.textIntro {
+height: 60vh;
+background-color: #e2e2d32c;
+}
+
+.neverNow {
+height: 40vh;
+
+}
+
+.neverNow img {
+width: 100%;
+height: 100%;
+}
+
+.ceezyLine h1 {
+text-align: center;
+font-size: 5vw;
+color: #201e1e;
+}
+
+
+.close-btn {
+position: absolute;
+top: 2px;
+right: -90px;
+font-size: 24px;
+color: white;
+background-color: transparent;
+border: none;
+cursor: pointer;
+z-index: 10000000;
+}
+
+
+
+
+.random-content {
+background-color: black;
+padding: 20px;
+border-radius: 5px;
+max-width: 100%;
+overflow: auto;
+display: grid;
+grid-template-rows: 1fr 1fr ;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+
+.writeups
+{
+  width: 100%;
+background-color: white;
+ display: grid;
+ grid-template-rows: 1fr 1fr 3fr;
+ height: 100%;
+}
+
+
+.random-content > *:first-child  {
+flex-grow: 4; /* First element takes more space */
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+
+
+}
+/* Apply different flex-grow values to child elements */
+.random-content > *:first-child  img{
+flex-grow: 4; /* First element takes more space */
+width: 100%;
+
+
+}
+
+
+.random-content > *:first-child  video{
+flex-grow: 4; /* First element takes more space */
+ width: 100%;
+
+
+
+}
+
+.writeups div
+{
+box-shadow: 1px 1px black;
+align-content: center;
+
+
+}
+
+
+
+
+
+.writeups .sectionsp
+{
+font-size: 8vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.writeups .sectionsl 
+{
+display: flex;
+align-items: center;
+justify-content: center
+;
+}
+.writeups .sectionsl img
+{
+  width: 20vw;
+  height: 10vw;
+}
+
+.writeups .sectionsw
+{
+overflow: auto;
+padding: 10px;
+align-items: end;
+text-align: start;
+
+}
+
+
+
+
+.writeups .sectionsw h3
+{
+
+width: 30px;
+width: 100%;
+
+font-size: 5vw;
+font-weight:200;
+
+}
+
+.random-content > *:not(:first-child) {
+flex-grow: 1; /* Other elements share remaining space equally */
+width: 100%
+}
+
+
+
+.random-content > *:not(:first-child) p {
+  font-size: 10px;
+}
+
+
+.random {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+z-index: 1000000000000000; /* Ensure the modal is on top of other content */
+display: flex;
+grid-template-columns: 300fr 1fr;
+align-items: center;
+justify-content: center;
+padding: 20px;
+
+
+
+
+}
+
+
+.ceezyLine h3 {
+font-family: 'Nunito', sans-serif;
+text-align: center;
+color: #2B382D;
+}
+
+.donateBtns {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 50px;
+gap: 9vw;
+}
+
+.donateBtns button {
+background-color: #2B382D;
+height: 60px;
+width: 250px;
+font-size: 20px;
+color: white;
+border: none;
+border-radius: 5px;
+box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.pi {
+width: 100%;
+display: grid;
+align-items: center;
+grid-row: 1fr 5fr 1fr;
+justify-content: center;
+flex-direction: column;
+padding-top: 40px;
+
+}
+
+.pi img {
+width: 100%;
+height: 100%;
+margin-top: 40px;
+}
+
+.War4oh {
+width: 100%;
+text-align: center;
+padding-top: 20vw;
+}
+
+.War4oh .War4ohtxt1 {
+color: orange;
+}
+
+.War4oh h1 {
+align-items: center;
+font-size: 6vw;
+
+}
+
+.War4oh h3 {
+font-size: large;
+margin-top: 20px;
+text-align: start;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.ceezyLine {
+align-items: center;
+justify-content: center;
+display: grid;
+padding: 40px;
+}
+
+.swipers {
+width: 100vw;
+
+
+}
+
+.actiondiv {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 40px;
+}
+
+.actiondiv button
+{
+      width: 300px;
+      min-height: 50px;
+      margin-bottom: 50px;
+}
+
+.actiondiv h1
+{
+font-size: 5vw;
+}
+.actiondiv h2 {
+font-size: 3vw;
+text-align: center;
+padding: 10px;
+padding-top: 60px;
+}
+
+.clickables video
+
+{
+width: 400px;
+height: 300px;
+margin-left: -28px;
+
+
+
+
+}
+
+
+.clickables img
+{
+  width: 100%;
+  height: 300px;
+  
+
+}
+
+
+.clickables
+{
+  background-color: rgba(0, 0, 0, 0.274);
+height: 100%;
+overflow: hidden;
+padding: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.aface
+{
+display: flex;
+align-items: center;
+height: 70vh;
+justify-content: center;
+margin-top: 200px;
+gap: 100px;
+flex-direction: column;
+text-align: center;
+padding: 10px;
+}
+
+.aface > :first-child img {
+  
+         border-radius: 100vw;
+
+}
+
+
+.aface > :not(:first-child) {
+  
+
+border-top: solid ;
+border-bottom: solid ;
+width: 70vw;
+font-size: small;
+text-align:left;
+
+}
+
+
+
+
+.briefing
+{
+background-color: gainsboro ;
+height: 120vh;
+padding: 20px;
+margin-top: 100px;
+
+
+}
+
+.briefing h1
+{
+text-align: center;
+margin-bottom: 70px;
+}
+
+.briefing h2
+{ 
+text-align: left;
+margin-bottom: 100px;
+
+}
+
+.iframe
+{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 300px
+}
+.shop
+{
+  width: 100%;
+}
+
+
+.shop img 
+{
+  width: 100%;
+}
+
+
+
+
+}

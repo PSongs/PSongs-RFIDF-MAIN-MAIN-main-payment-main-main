@@ -1,0 +1,275 @@
+.about
+{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dialog-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .dialog-content p {
+    margin-bottom: 20px;
+  }
+  
+  .dialog-content button {
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+
+.about img
+{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.7;
+    position: absolute;
+    
+    filter: brightness(150%);
+
+}
+
+
+
+
+.abttxt
+{
+     color: white;
+   
+     align-items: start;
+     padding: 5vw;
+     font-size: 6vw;
+}
+
+.seriesHs
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 60vh;
+    padding: 15px;
+     box-shadow: 1px black;
+}   
+
+
+.seriesHs div
+{
+    line-height: 50px;
+    
+}
+
+
+.centerIt{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.centerIt  img{
+   width: 30vw;
+    
+}
+
+
+.aline
+{
+    border-bottom: 1px solid black;
+    border-width: 80%;
+}
+
+.aboutUs
+{
+    padding: 15px;
+
+} 
+
+
+
+.aboutUs div
+{
+    padding-top: 20px;
+}
+
+.seriesHs h4
+{ 
+    font-weight: 100;
+    
+}
+
+.aboutUs h1 , .seriesHs h1
+{
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+@media (max-width: 1004px) {
+
+    .dialog {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .dialog-content {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 80%;
+        max-width: 400px;
+      }
+      
+      .dialog-content p {
+        margin-bottom: 20px;
+      }
+      
+      .dialog-content button {
+        background-color: blue;
+        color: white;
+        font-weight: 900;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      
+    .about
+{
+    width: 100%;
+    background-color: black;
+    height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 30vh;
+}
+
+.about img
+{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    opacity: 0.7;
+    position: absolute;
+    
+    filter: brightness(150%);
+
+}
+
+.abttxt
+{
+     color: white;
+   
+     align-items: start;
+     padding: 5vw;
+     font-size: 8vw;
+}
+
+.seriesHs
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 60vh;
+    padding: 15px;
+     box-shadow: 1px black;
+     
+}   
+
+
+.seriesHs div
+{
+    line-height: 20px;
+  
+    
+}
+
+
+.centerIt{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.centerIt  img{
+   width: 70vw;
+    
+}
+
+
+.aline
+{
+    border-bottom: 1px solid black;
+    border-width: 80%;
+}
+
+.aboutUs
+{
+    padding: 15px;
+
+} 
+
+.aboutUs div
+{
+    padding-top: 20px;
+}
+
+.local
+{
+    
+   
+    margin-top: 5vw;
+    font-size: 3vw;
+    padding: 2px;
+    margin-bottom: 5vw;
+}
+
+.seriesHs h4
+{ 
+    font-weight: 100;
+    
+}
+
+.aboutUs h1 , .seriesHs h1
+{
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+
+}
